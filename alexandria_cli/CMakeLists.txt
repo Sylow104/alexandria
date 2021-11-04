@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(alexandria_cli VERSION 0.0.1)
+FILE(GLOB C_SRC src/*.c)
+add_executable(alexandria_cli ${C_SRC})
+target_include_directories(alexandria_cli PUBLIC include)
+target_link_libraries(alexandria_cli alexandria)

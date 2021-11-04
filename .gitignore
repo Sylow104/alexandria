@@ -1,0 +1,8 @@
+*.*
+build/**
+!*.c
+!*.h
+!LICENSE
+!README.md
+!.gitignore
+!CMakeLists.txt
